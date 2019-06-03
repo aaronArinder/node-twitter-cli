@@ -6,7 +6,9 @@ First, [create an app](https://developer.twitter.com/en/apps) on Twitter. After 
 
 Clone the repository and run `npm install`.
 
-Find `env-example.js`. Fill our `env-example` with the corresponding keys/tokens in your twitter app's `keys and tokens` tab.
+Find `env-example.js`. Fill out `env-example` with the corresponding keys/tokens in your twitter app's `keys and tokens` tab.
+
+Change `env-example.js`'s name to `env.js`.
 
 
 #### Example usage
