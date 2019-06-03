@@ -42,7 +42,7 @@ function searchStatuses (valueString) {
   twitter.get('search/tweets', params, function (err, data, response) {
     if (!err) {
       data.statuses.forEach(d => {
-        console.log(`${d.user.screen_name} :: ${d.text}\n\n\n`);
+        console.log(`${d.user.screen_name} :: ${d.text}\n\n`);
       });
     } else {
       console.log('err', err);
