@@ -1,0 +1,23 @@
+{
+  "name": "node-twitter-cli",
+  "version": "1.0.0",
+  "description": "A command line interface for twitter.",
+  "main": "index.js",
+  "bin": {
+    "twittah": "bin/twittah"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "cli",
+    "node"
+  ],
+  "author": "Aaron Arinder",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "twitter": "^1.7.1"
+  }
+}
