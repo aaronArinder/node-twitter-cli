@@ -1,5 +1,5 @@
 ### Twitter CLI
-This is a CLI tool for interacting with Twitter.
+This is a CLI tool for interacting with Twitter. Useful for checking whether some service is done. E.g., recently I used it to find out whether other folks were experiencing AWS DNS issues without having to open a browser.
 
 #### Installation
 First, [create an app](https://developer.twitter.com/en/apps) on Twitter. After you've successfully created one, find the `keys and tokens` tab in your newly created app.
@@ -19,7 +19,7 @@ Currently, there's just one feature: `search`. Two arguments are passed two it, 
 ```
 
 
-Will return, in the following format `user_name :: tweet_body`:
+will return, in the following format `user_name :: tweet_body`:
 
 ```
 piyushjha :: Learn how to bring it all together with NPM this upcoming Friday, June 7th on #NICETalks!

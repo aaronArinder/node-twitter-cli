@@ -20,7 +20,8 @@ const twitter = new Twitter(config);
 program.version('0.0.1');
 
 program
-  .option('-s, --search <query | count>', 'query and [optional] count', searchStatuses);
+  .option('-s, --search <query | count>', 'query and [optional] count', searchStatuses)
+  .option('-h', 'TODO: add help', () => 'howdy!');
 
 program.parse(process.argv);
 
